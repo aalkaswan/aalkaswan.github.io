@@ -1,0 +1,8 @@
+---
+title: "Publications"
+type: default
+listing:
+  contents:
+    - "papers/Capybara.qmd"
+    - "papers/ExtractionChallenge.qmd"
+---

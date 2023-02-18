@@ -1,0 +1,28 @@
+---
+title: "Ali Al-Kaswan Personal Website"
+---
+
+I am a Ph.D. student in the [Software Engineering Research Group](https://se.ewi.tudelft.nl/) at TU Delft
+Currently, I am researching the application of Natural Language Processing to Software Engineering.
+My research interests include AI4SE, Reverse Engineering and NLP.
+Previously, I obtained my Masters in Computer Science and Engineering - with a specialisation in Cybersecurity. 
+
+Email: a.al-kaswan[at]tudelft.nl
+
+## Studies:
+- TU Delft - Ph.D. candidate Software Engineering Research Group(2022-)
+- TU Delft - Master Computer Science and Engineering - Cyber Security Specialization (2020-2022)
+- TU Delft - Bachelor Computer Science and Engineering (2017-2020)
+
+## Work Experience
+- eye Security, The Hague — Junior Incident Responder (2021-2022)
+- TU Delft — Teaching Assistant Computer Science (2019-2022)
+- TU Delft — Mentorate Computer Science (2018-2019)
+
+
+<a class="twitter-timeline" href="https://twitter.com/aalkaswan1?ref_src=twsrc%5Etfw">Tweets by aalkaswan1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->
+
