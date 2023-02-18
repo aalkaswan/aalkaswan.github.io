@@ -4,28 +4,35 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Researching the application of Machine Learning to Software Engineering. Specifically interested in Natural Language Processing to help in Software Engineering Tasks and the intersection of Machine Learning and Security.\nMy previous research involved using Pre-Trained Transformers to help with Reverse Engineering Binaries. I am currently focussing on the privacy of Large Language Models."
+  },
+  {
+    "objectID": "about.html#studies",
+    "href": "about.html#studies",
+    "title": "About",
+    "section": "Studies",
+    "text": "Studies\nI previously obtained my Master’s in Computer Science and Engineering with a specialization in Cyber Security from the Delft University of Technology. My Masters Thesis involved using Transformer models to summarise Decompiled Binaries. I have also obtained my Bachelor’s in Computer Science and Engineering from the same university, where my Bachelors Thesis involved making an inclusive game to make Datacenters more appealing to girls."
+  },
+  {
+    "objectID": "about.html#work",
+    "href": "about.html#work",
+    "title": "About",
+    "section": "Work",
+    "text": "Work\nI have worked as a Junior Incident Responder at eye Security in the Hague (2021-2022). I have also been employed as a Teaching Assistant where I assisted in teaching Software Architecture, Software Engineering Methods and Computational Intelligence courses (2019-2022). Before that, I was involved in the Mentorate program for Computer Science where I helped freshmen get acquainted with university life (2018-2019)."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nYou can reach me on email: a.al-kaswan[at]tudelft.nl or on Twitter: @aalkaswan"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ali Al-Kaswan Personal Website",
     "section": "",
-    "text": "I am a Ph.D. student in the Software Engineering Research Group at TU Delft Currently, I am researching the application of Natural Language Processing to Software Engineering. My research interests include AI4SE, Reverse Engineering and NLP. Previously, I obtained my Masters in Computer Science and Engineering - with a specialisation in Cybersecurity.\nEmail: a.al-kaswan[at]tudelft.nl"
-  },
-  {
-    "objectID": "index.html#studies",
-    "href": "index.html#studies",
-    "title": "Ali Al-Kaswan Personal Website",
-    "section": "Studies:",
-    "text": "Studies:\n\nTU Delft - Ph.D. candidate Software Engineering Research Group(2022-)\nTU Delft - Master Computer Science and Engineering - Cyber Security Specialization (2020-2022)\nTU Delft - Bachelor Computer Science and Engineering (2017-2020)"
-  },
-  {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "Ali Al-Kaswan Personal Website",
-    "section": "Work Experience",
-    "text": "Work Experience\n\neye Security, The Hague — Junior Incident Responder (2021-2022)\nTU Delft — Teaching Assistant Computer Science (2019-2022)\nTU Delft — Mentorate Computer Science (2018-2019)\n\nTweets by aalkaswan1"
+    "text": "I am a Ph.D. student in the Software Engineering Research Group at TU Delft. Currently, I am researching the application of Natural Language Processing to Software Engineering. My research interests include AI4SE, Reverse Engineering and NLP. Previously, I obtained my Masters in Computer Science and Engineering - with a specialisation in Cybersecurity.\nEmail: a.al-kaswan[at]tudelft.nl\nTweets by aalkaswan1"
   },
   {
     "objectID": "publications.html",

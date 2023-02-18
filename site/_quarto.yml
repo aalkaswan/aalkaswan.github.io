@@ -10,7 +10,7 @@ website:
         text: Home
       - href: publications.qmd
         text: Publications
-      # - about.qmd
+      - about.qmd
 
     right:
       - icon: linkedin
