@@ -2,7 +2,10 @@
 title: "Publications"
 type: default
 listing:
+  sort: "date desc"
   contents:
-    - "papers/Capybara.qmd"
+    - "papers/oss_LLM.qmd"
+    - "papers/STACC.qmd"
     - "papers/ExtractionChallenge.qmd"
+    - "papers/Capybara.qmd"
 ---

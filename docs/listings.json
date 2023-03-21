@@ -2,8 +2,10 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/papers/Capybara.html",
-      "/papers/ExtractionChallenge.html"
+      "/papers/oss_LLM.html",
+      "/papers/STACC.html",
+      "/papers/ExtractionChallenge.html",
+      "/papers/Capybara.html"
     ]
   }
 ]
