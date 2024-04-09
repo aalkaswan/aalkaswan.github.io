@@ -1,0 +1,44 @@
+// 20230217150802
+// https://raw.githubusercontent.com/rocker-org/devcontainer-features/main/src/quarto-cli/devcontainer-feature.json
+
+{
+  "name": "Quarto CLI",
+  "id": "quarto-cli",
+  "version": "1.1.2",
+  "description": "Installs the Quarto CLI. Auto-detects latest version.",
+  "documentationURL": "https://github.com/rocker-org/devcontainer-features/tree/main/src/quarto-cli",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1.1.2": {}
+  },
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest",
+        "prerelease"
+      ],
+      "default": "latest",
+      "description": "Select version of the Quarto CLI, if not latest."
+    },
+    "installTinyTex": {
+      "type": "boolean",
+      "default": false,
+      "description": "Install TinyTeX by using the `quarto tools install tinytex` command. Works only with version 1.2 or later."
+    },
+    "installChromium": {
+      "type": "boolean",
+      "default": false,
+      "description": "Run the `quarto tools install chromium` command. Check the document for details."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto"
+      ]
+    }
+  }
+}

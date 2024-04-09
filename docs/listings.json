@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/papers/TracesMemorisation.html",
+      "/papers/DocSym.html",
+      "/papers/oss_LLM.html",
+      "/papers/STACC.html",
+      "/papers/ExtractionChallenge.html",
+      "/papers/Capybara.html"
+    ]
+  }
+]
