@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../docs
+  resources:
+    - /papers/images/2024_ICSE_Doc_Sym.pdf
 
 website:
   title: "Ali Al-Kaswan"

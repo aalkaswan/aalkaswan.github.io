@@ -8,4 +8,6 @@ listing:
     - "papers/STACC.qmd"
     - "papers/ExtractionChallenge.qmd"
     - "papers/Capybara.qmd"
+    - "papers/DocSym.qmd"
+    - "papers/TracesMemorisation.qmd"
 ---
