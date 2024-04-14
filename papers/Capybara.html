@@ -139,11 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
-  <ul class="collapse">
-  <li><a href="#link-to-full-paper" id="toc-link-to-full-paper" class="nav-link" data-scroll-target="#link-to-full-paper">Link to full paper</a></li>
-  <li><a href="#replication-package" id="toc-replication-package" class="nav-link" data-scroll-target="#replication-package">Replication Package</a></li>
-  </ul></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -193,14 +189,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p>Reverse engineering binaries is required to understand and analyse programs for which the source code is unavailable. Decompilers can transform the largely unreadable binaries into a more readable source code-like representation. However, reverse engineering is time-consuming, much of which is taken up by labelling the functions with semantic information. While the automated summarisation of decompiled code can help Reverse Engineers understand and analyse binaries, current work mainly focuses on summarising source code, and no suitable dataset exists for this task. In this work, we extend large pre-trained language models of source code to summarise decompiled binary functions. Furthermore, we investigate the impact of input and data properties on the performance of such models. Our approach consists of two main components; the data and the model. We first build CAPYBARA, a dataset of 214K decompiled function-documentation pairs across various compiler optimisations. We extend CAPYBARA further by generating synthetic datasets and deduplicating the data. Next, we fine-tune the CodeT5 base model with CAPYBARA to create BinT5. BinT5 achieves the state-of-the-art BLEU-4 score of 60.83, 58.82, and 44.21 for summarising source, decompiled, and synthetically stripped decompiled code, respectively. This indicates that these models can be extended to decompiled binaries successfully. Finally, we found that the performance of BinT5 is not heavily dependent on the dataset size and compiler optimisation level. We recommend future research to further investigate transferring knowledge when working with less expressive input formats such as stripped binaries.</p>
-<section id="link-to-full-paper" class="level2">
-<h2 class="anchored" data-anchor-id="link-to-full-paper"><a href="https://arxiv.org/pdf/2301.01701.pdf">Link to full paper</a></h2>
-</section>
-<section id="replication-package" class="level2">
-<h2 class="anchored" data-anchor-id="replication-package"><a href="https://github.com/AISE-TUDelft/Capybara-BinT5">Replication Package</a></h2>
+<p><a href="hhttps://arxiv.org/pdf/2301.01701.pdf" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a></p>
+<p><a href="https://github.com/AISE-TUDelft/Capybara-BinT5" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-github"></i> Replication Package</a></p>
+<p><a href="https://huggingface.co/collections/AISE-TUDelft/bint5-65bd006a8c90bd5c97485244" class="w-100 btn btn-primary btn-lg btn-block" role="button"> 🤗 Huggingface Collection</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -285,7 +278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/aalkaswan\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

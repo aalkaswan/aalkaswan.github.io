@@ -139,10 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
-  <ul class="collapse">
-  <li><a href="#link-to-full-report" id="toc-link-to-full-report" class="nav-link" data-scroll-target="#link-to-full-report">Link to full report</a></li>
-  </ul></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -188,11 +185,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p>Previous work has shown that Large Language Models are susceptible to so-called data extraction attacks. This allows an attacker to extract a sample that was contained in the training data, which has massive privacy implications. The construction of data extraction attacks is challenging, current attacks are quite inefficient, and there exists a significant gap in the extraction capabilities of untargeted attacks and memorization. Thus, targeted attacks are proposed, which identify if a given sample from the training data, is extractable from a model. In this work, we apply a targeted data extraction attack to the SATML2023 Language Model Training Data Extraction Challenge. We apply a two-step approach. In the first step, we maximise the recall of the model and are able to extract the suffix for 69% of the samples. In the second step, we use a classifier-based Membership Inference Attack on the generations. Our AutoSklearn classifier achieves a precision of 0.841. The full approach reaches a score of 0.405 recall at a 10% false positive rate, which is an improvement of 34% over the baseline of 0.301.</p>
-<section id="link-to-full-report" class="level2">
-<h2 class="anchored" data-anchor-id="link-to-full-report"><a href="https://arxiv.org/pdf/2302.07735.pdf">Link to full report</a></h2>
+<p><a href="https://arxiv.org/pdf/2302.07735.pdf" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -277,7 +272,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/aalkaswan\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

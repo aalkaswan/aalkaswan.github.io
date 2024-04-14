@@ -139,10 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
-  <ul class="collapse">
-  <li><a href="#link-to-full-paper" id="toc-link-to-full-paper" class="nav-link" data-scroll-target="#link-to-full-paper">Link to full paper</a></li>
-  </ul></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -188,11 +185,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p>In recent years, Large Language Models (LLMs) have gained significant popularity due to their ability to generate human-like text and their potential applications in various fields, such as Software Engineering. LLMs for Code are commonly trained on large unsanitized corpora of source code scraped from the Internet. The content of these datasets is memorized and emitted by the models, often in a verbatim manner. In this work, we will discuss the security, privacy, and licensing implications of memorization. We argue why the use of copyleft code to train LLMs is a legal and ethical dilemma. Finally, we provide four actionable recommendations to address this issue.</p>
-<section id="link-to-full-paper" class="level2">
-<h2 class="anchored" data-anchor-id="link-to-full-paper"><a href="https://arxiv.org/abs/2302.13681">Link to full paper</a></h2>
+<p><a href="https://arxiv.org/abs/2302.13681" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -277,7 +272,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/aalkaswan\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
