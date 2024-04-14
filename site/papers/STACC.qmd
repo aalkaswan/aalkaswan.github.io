@@ -20,8 +20,8 @@ A replication package, as well as the models themselves, are publicly available
 
 <gradio-app src="https://aise-tudelft-stacc.hf.space"></gradio-app>
 
-## [Link to full report](https://arxiv.org/pdf/2302.07735.pdf)
+<a href="https://arxiv.org/pdf/2302.07735.pdf" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a>
 
-## [Link to replication package](https://github.com/AISE-TUDelft/STACC)
+<a href="https://github.com/AISE-TUDelft/STACC" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-github"></i> Replication Package</a> 
 
-## [Link to Huggingface Space](https://aise-tudelft-stacc.hf.space/)
+<a href="https://aise-tudelft-stacc.hf.space/" class="w-100 btn btn-primary btn-lg btn-block" role="button"> 🤗 Huggingface Space</a> 

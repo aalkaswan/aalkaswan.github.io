@@ -139,11 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
-  <ul class="collapse">
-  <li><a href="#link-to-full-paper" id="toc-link-to-full-paper" class="nav-link" data-scroll-target="#link-to-full-paper">Link to full paper</a></li>
-  <li><a href="#replication-package" id="toc-replication-package" class="nav-link" data-scroll-target="#replication-package">Replication Package</a></li>
-  </ul></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -191,14 +187,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p>Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare the rate of memorisation with large language models trained on natural language. We adopt an existing benchmark for natural language and construct a benchmark for code by identifying samples that are vulnerable to attack. We run both benchmarks against a variety of models, and perform a data extraction attack. We find that large language models for code are vulnerable to data extraction attacks, like their natural language counterparts. From the training data that was identified to be potentially extractable we were able to extract 47% from a CodeGen-Mono-16B code completion model. We also observe that models memorise more, as their parameter count grows, and that their pre-training data are also vulnerable to attack. We also find that data carriers are memorised at a higher rate than regular code or documentation and that different model architectures memorise different samples. Data leakage has severe outcomes, so we urge the research community to further investigate the extent of this phenomenon using a wider range of models and extraction techniques in order to build safeguards to mitigate this issue.</p>
-<section id="link-to-full-paper" class="level2">
-<h2 class="anchored" data-anchor-id="link-to-full-paper"><a href="https://arxiv.org/pdf/2312.11658.pdf">Link to full paper</a></h2>
-</section>
-<section id="replication-package" class="level2">
-<h2 class="anchored" data-anchor-id="replication-package"><a href="https://github.com/AISE-TUDelft/LLM4Code-extraction">Replication Package</a></h2>
+<p><a href="https://arxiv.org/pdf/2312.11658.pdf" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a></p>
+<p><a href="https://github.com/AISE-TUDelft/LLM4Code-extraction" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-github"></i> Replication Package</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

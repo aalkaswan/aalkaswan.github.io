@@ -25,4 +25,4 @@ and prevent memorisation.
 Additionally, we suggest methods to compress models and
 run them locally on consumer hardware.
 
-## [Link to full paper](/papers/images/2024_ICSE_Doc_Sym.pdf)
+<a href="/papers/images/2024_ICSE_Doc_Sym.pdf" class="w-100 btn btn-primary btn-lg btn-block" role="button"><i class="bi bi-journal"></i> Full Paper</a>

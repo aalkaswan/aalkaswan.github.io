@@ -11,21 +11,21 @@
     "href": "papers/ExtractionChallenge.html",
     "title": "Targeted Attack on GPT-Neo for the SATML Language Model Data Extraction Challenge",
     "section": "",
-    "text": "Previous work has shown that Large Language Models are susceptible to so-called data extraction attacks. This allows an attacker to extract a sample that was contained in the training data, which has massive privacy implications. The construction of data extraction attacks is challenging, current attacks are quite inefficient, and there exists a significant gap in the extraction capabilities of untargeted attacks and memorization. Thus, targeted attacks are proposed, which identify if a given sample from the training data, is extractable from a model. In this work, we apply a targeted data extraction attack to the SATML2023 Language Model Training Data Extraction Challenge. We apply a two-step approach. In the first step, we maximise the recall of the model and are able to extract the suffix for 69% of the samples. In the second step, we use a classifier-based Membership Inference Attack on the generations. Our AutoSklearn classifier achieves a precision of 0.841. The full approach reaches a score of 0.405 recall at a 10% false positive rate, which is an improvement of 34% over the baseline of 0.301."
+    "text": "Abstract\nPrevious work has shown that Large Language Models are susceptible to so-called data extraction attacks. This allows an attacker to extract a sample that was contained in the training data, which has massive privacy implications. The construction of data extraction attacks is challenging, current attacks are quite inefficient, and there exists a significant gap in the extraction capabilities of untargeted attacks and memorization. Thus, targeted attacks are proposed, which identify if a given sample from the training data, is extractable from a model. In this work, we apply a targeted data extraction attack to the SATML2023 Language Model Training Data Extraction Challenge. We apply a two-step approach. In the first step, we maximise the recall of the model and are able to extract the suffix for 69% of the samples. In the second step, we use a classifier-based Membership Inference Attack on the generations. Our AutoSklearn classifier achieves a precision of 0.841. The full approach reaches a score of 0.405 recall at a 10% false positive rate, which is an improvement of 34% over the baseline of 0.301.\n Full Paper"
   },
   {
     "objectID": "papers/TracesMemorisation.html",
     "href": "papers/TracesMemorisation.html",
     "title": "Traces of Memorisation in Large Language Models for Code",
     "section": "",
-    "text": "Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare the rate of memorisation with large language models trained on natural language. We adopt an existing benchmark for natural language and construct a benchmark for code by identifying samples that are vulnerable to attack. We run both benchmarks against a variety of models, and perform a data extraction attack. We find that large language models for code are vulnerable to data extraction attacks, like their natural language counterparts. From the training data that was identified to be potentially extractable we were able to extract 47% from a CodeGen-Mono-16B code completion model. We also observe that models memorise more, as their parameter count grows, and that their pre-training data are also vulnerable to attack. We also find that data carriers are memorised at a higher rate than regular code or documentation and that different model architectures memorise different samples. Data leakage has severe outcomes, so we urge the research community to further investigate the extent of this phenomenon using a wider range of models and extraction techniques in order to build safeguards to mitigate this issue."
+    "text": "Abstract\nLarge language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare the rate of memorisation with large language models trained on natural language. We adopt an existing benchmark for natural language and construct a benchmark for code by identifying samples that are vulnerable to attack. We run both benchmarks against a variety of models, and perform a data extraction attack. We find that large language models for code are vulnerable to data extraction attacks, like their natural language counterparts. From the training data that was identified to be potentially extractable we were able to extract 47% from a CodeGen-Mono-16B code completion model. We also observe that models memorise more, as their parameter count grows, and that their pre-training data are also vulnerable to attack. We also find that data carriers are memorised at a higher rate than regular code or documentation and that different model architectures memorise different samples. Data leakage has severe outcomes, so we urge the research community to further investigate the extent of this phenomenon using a wider range of models and extraction techniques in order to build safeguards to mitigate this issue.\n Full Paper\n Replication Package"
   },
   {
     "objectID": "papers/Capybara.html",
     "href": "papers/Capybara.html",
     "title": "Extending Source Code Pre-Trained Language Models to Summarise Decompiled Binaries",
     "section": "",
-    "text": "Reverse engineering binaries is required to understand and analyse programs for which the source code is unavailable. Decompilers can transform the largely unreadable binaries into a more readable source code-like representation. However, reverse engineering is time-consuming, much of which is taken up by labelling the functions with semantic information. While the automated summarisation of decompiled code can help Reverse Engineers understand and analyse binaries, current work mainly focuses on summarising source code, and no suitable dataset exists for this task. In this work, we extend large pre-trained language models of source code to summarise decompiled binary functions. Furthermore, we investigate the impact of input and data properties on the performance of such models. Our approach consists of two main components; the data and the model. We first build CAPYBARA, a dataset of 214K decompiled function-documentation pairs across various compiler optimisations. We extend CAPYBARA further by generating synthetic datasets and deduplicating the data. Next, we fine-tune the CodeT5 base model with CAPYBARA to create BinT5. BinT5 achieves the state-of-the-art BLEU-4 score of 60.83, 58.82, and 44.21 for summarising source, decompiled, and synthetically stripped decompiled code, respectively. This indicates that these models can be extended to decompiled binaries successfully. Finally, we found that the performance of BinT5 is not heavily dependent on the dataset size and compiler optimisation level. We recommend future research to further investigate transferring knowledge when working with less expressive input formats such as stripped binaries."
+    "text": "Abstract\nReverse engineering binaries is required to understand and analyse programs for which the source code is unavailable. Decompilers can transform the largely unreadable binaries into a more readable source code-like representation. However, reverse engineering is time-consuming, much of which is taken up by labelling the functions with semantic information. While the automated summarisation of decompiled code can help Reverse Engineers understand and analyse binaries, current work mainly focuses on summarising source code, and no suitable dataset exists for this task. In this work, we extend large pre-trained language models of source code to summarise decompiled binary functions. Furthermore, we investigate the impact of input and data properties on the performance of such models. Our approach consists of two main components; the data and the model. We first build CAPYBARA, a dataset of 214K decompiled function-documentation pairs across various compiler optimisations. We extend CAPYBARA further by generating synthetic datasets and deduplicating the data. Next, we fine-tune the CodeT5 base model with CAPYBARA to create BinT5. BinT5 achieves the state-of-the-art BLEU-4 score of 60.83, 58.82, and 44.21 for summarising source, decompiled, and synthetically stripped decompiled code, respectively. This indicates that these models can be extended to decompiled binaries successfully. Finally, we found that the performance of BinT5 is not heavily dependent on the dataset size and compiler optimisation level. We recommend future research to further investigate transferring knowledge when working with less expressive input formats such as stripped binaries.\n Full Paper\n Replication Package\n 🤗 Huggingface Collection"
   },
   {
     "objectID": "about.html",
@@ -60,14 +60,14 @@
     "href": "papers/oss_LLM.html",
     "title": "The (ab)use of Open Source Code to Train Large Language Models",
     "section": "",
-    "text": "In recent years, Large Language Models (LLMs) have gained significant popularity due to their ability to generate human-like text and their potential applications in various fields, such as Software Engineering. LLMs for Code are commonly trained on large unsanitized corpora of source code scraped from the Internet. The content of these datasets is memorized and emitted by the models, often in a verbatim manner. In this work, we will discuss the security, privacy, and licensing implications of memorization. We argue why the use of copyleft code to train LLMs is a legal and ethical dilemma. Finally, we provide four actionable recommendations to address this issue."
+    "text": "Abstract\nIn recent years, Large Language Models (LLMs) have gained significant popularity due to their ability to generate human-like text and their potential applications in various fields, such as Software Engineering. LLMs for Code are commonly trained on large unsanitized corpora of source code scraped from the Internet. The content of these datasets is memorized and emitted by the models, often in a verbatim manner. In this work, we will discuss the security, privacy, and licensing implications of memorization. We argue why the use of copyleft code to train LLMs is a legal and ethical dilemma. Finally, we provide four actionable recommendations to address this issue.\n Full Paper"
   },
   {
     "objectID": "papers/STACC.html",
     "href": "papers/STACC.html",
     "title": "STACC: Code Comment Classification using SentenceTransformers",
     "section": "",
-    "text": "Code comments are a key resource for information about software artefacts. Depending on the use case, only some types of comments are useful. Thus, automatic approaches to classify these comments are proposed. In this work, we address this need by proposing, STACC, a set of SentenceTransformers-based binary classifiers. These lightweight classifiers are trained and tested on the NLBSE Code Comment Classification tool competition dataset, and surpass the baseline by a significant margin, achieving an average F1 score of 0.74 against the baseline of 0.31, which is an improvement of 139%. A replication package, as well as the models themselves, are publicly available"
+    "text": "Abstract\nCode comments are a key resource for information about software artefacts. Depending on the use case, only some types of comments are useful. Thus, automatic approaches to classify these comments are proposed. In this work, we address this need by proposing, STACC, a set of SentenceTransformers-based binary classifiers. These lightweight classifiers are trained and tested on the NLBSE Code Comment Classification tool competition dataset, and surpass the baseline by a significant margin, achieving an average F1 score of 0.74 against the baseline of 0.31, which is an improvement of 139%. A replication package, as well as the models themselves, are publicly available\n\n\nHuggingface Space\n\n\n Full Paper\n Replication Package\n 🤗 Huggingface Space"
   },
   {
     "objectID": "papers/STACC.html#link-to-full-report",
@@ -88,14 +88,14 @@
     "href": "papers/STACC.html#link-to-huggingface-space",
     "title": "STACC: Code Comment Classification using SentenceTransformers",
     "section": "Link to Huggingface Space",
-    "text": "Link to Huggingface Space"
+    "text": "Link to Huggingface Space\n Full Paper\n Replication Package\n 🤗 Huggingface Space"
   },
   {
     "objectID": "papers/DocSym.html",
     "href": "papers/DocSym.html",
     "title": "Towards Safe, Secure, and Usable LLMs4Code",
     "section": "",
-    "text": "Large Language Models (LLMs) are gaining popularity in the field of Natural Language Processing (NLP) due to their remarkable accuracy in various NLP tasks. LLMs designed for coding are trained on massive datasets, which enables them to learn the structure and syntax of programming languages. These datasets are scraped from the web and LLMs memorise information in these datasets. LLMs for code are also growing, making them more challenging to execute and making users increasingly reliant on external infrastructure. We aim to explore the challenges faced by LLMs for code and propose techniques to measure and prevent memorisation. Additionally, we suggest methods to compress models and run them locally on consumer hardware."
+    "text": "Abstract\nLarge Language Models (LLMs) are gaining popularity in the field of Natural Language Processing (NLP) due to their remarkable accuracy in various NLP tasks. LLMs designed for coding are trained on massive datasets, which enables them to learn the structure and syntax of programming languages. These datasets are scraped from the web and LLMs memorise information in these datasets. LLMs for code are also growing, making them more challenging to execute and making users increasingly reliant on external infrastructure. We aim to explore the challenges faced by LLMs for code and propose techniques to measure and prevent memorisation. Additionally, we suggest methods to compress models and run them locally on consumer hardware.\n Full Paper"
   },
   {
     "objectID": "publications.html",
@@ -103,5 +103,33 @@
     "title": "Publications",
     "section": "",
     "text": "Traces of Memorisation in Large Language Models for Code\n\n\n\n\n\n\n\n\n\n\n\nApr 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTowards Safe, Secure, and Usable LLMs4Code\n\n\n\n\n\n\n\n\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nThe (ab)use of Open Source Code to Train Large Language Models\n\n\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSTACC: Code Comment Classification using SentenceTransformers\n\n\n\n\n\n\n\n\n\n\n\nFeb 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTargeted Attack on GPT-Neo for the SATML Language Model Data Extraction Challenge\n\n\n\n\n\n\n\n\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nExtending Source Code Pre-Trained Language Models to Summarise Decompiled Binaries\n\n\n\n\n\n\n\n\n\n\n\nJan 13, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "papers/oss_LLM.html#link-to-full-paper",
+    "href": "papers/oss_LLM.html#link-to-full-paper",
+    "title": "The (ab)use of Open Source Code to Train Large Language Models",
+    "section": "",
+    "text": "Full Paper\n Replication Package"
+  },
+  {
+    "objectID": "papers/DocSym.html#link-to-full-paper",
+    "href": "papers/DocSym.html#link-to-full-paper",
+    "title": "Towards Safe, Secure, and Usable LLMs4Code",
+    "section": "",
+    "text": "Full Paper"
+  },
+  {
+    "objectID": "papers/ExtractionChallenge.html#link-to-full-report",
+    "href": "papers/ExtractionChallenge.html#link-to-full-report",
+    "title": "Targeted Attack on GPT-Neo for the SATML Language Model Data Extraction Challenge",
+    "section": "",
+    "text": "Full Paper"
+  },
+  {
+    "objectID": "papers/Capybara.html#replication-package",
+    "href": "papers/Capybara.html#replication-package",
+    "title": "Extending Source Code Pre-Trained Language Models to Summarise Decompiled Binaries",
+    "section": "",
+    "text": "Full Paper\n Replication Package"
   }
 ]
