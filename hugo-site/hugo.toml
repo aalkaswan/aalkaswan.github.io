@@ -22,12 +22,12 @@ unsafe = true
 [menu]
 [[menu.before]]
 name = "About"
-url = "/about"
+pageRef = "/about"
 weight = 10
 
 [[menu.before]]
 name = "Publications"
-url = "/publications"
+pageRef = "/publications"
 weight = 20
 
 # Separator
@@ -40,18 +40,26 @@ weight = 30
 name = "🔗 LinkedIn"
 url = "https://www.linkedin.com/in/aalkaswan"
 weight = 10
+[menu.after.params]
+target = "_blank"
 
 [[menu.after]]
 name = "💻 GitHub" 
 url = "https://github.com/aalkaswan"
 weight = 20
+[menu.after.params]
+target = "_blank"
 
 [[menu.after]]
 name = "🐦 Twitter"
 url = "https://twitter.com/aalkaswan1"
 weight = 30
+[menu.after.params]
+target = "_blank"
 
 [[menu.after]]
 name = "🎓 Google Scholar"
 url = "https://scholar.google.com/citations?user=mtil9QQAAAAJ"
 weight = 40
+[menu.after.params]
+target = "_blank"
