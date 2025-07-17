@@ -26,6 +26,7 @@ jobs:
       - name: Build Hugo site
         run: |
           cd hugo-site
+          rm -rf ../docs/*
           hugo --minify
 
       - name: Deploy to GitHub Pages
