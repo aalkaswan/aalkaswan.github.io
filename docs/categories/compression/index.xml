@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compression on Ali Al-Kaswan</title>
+    <link>http://localhost:1313/categories/compression/</link>
+    <description>Recent content in Compression on Ali Al-Kaswan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/compression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Safe, Secure, and Usable LLMs4Code</title>
+      <link>http://localhost:1313/publications/docsym/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/docsym/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;&#xA;  Abstract&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#abstract&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Large Language Models (LLMs) are gaining popularity&#xA;in the field of Natural Language Processing (NLP)&#xA;due to their remarkable accuracy in various NLP tasks.&#xA;LLMs designed for coding are trained on massive datasets,&#xA;which enables them to learn&#xA;the structure and syntax&#xA;of programming languages.&#xA;These datasets are scraped from the web&#xA;and LLMs memorise information in these datasets.&#xA;LLMs for code are also growing,&#xA;making them more challenging to execute&#xA;and making users increasingly reliant on external infrastructure.&#xA;We aim to explore the challenges faced by LLMs for code&#xA;and propose techniques to measure&#xA;and prevent memorisation.&#xA;Additionally, we suggest methods to compress models and&#xA;run them locally on consumer hardware.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

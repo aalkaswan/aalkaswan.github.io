@@ -1,0 +1,57 @@
+baseURL = 'https://aalkaswan.github.io'
+languageCode = 'en-us'
+title = 'Ali Al-Kaswan'
+theme = 'hugo-book'
+
+# Configure publishing to docs folder for GitHub Pages
+publishDir = '../docs'
+
+[params]
+# Book configuration
+BookTheme = 'auto'
+BookMenuBundle = '/menu'
+BookDateFormat = 'January 2, 2006'
+BookRepo = 'https://github.com/aalkaswan/aalkaswan.github.io'
+BookSearch = false
+BookComments = true
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+[[menu.before]]
+name = "About"
+url = "/about"
+weight = 10
+
+[[menu.before]]
+name = "Publications"
+url = "/publications"
+weight = 20
+
+# Separator
+[[menu.before]]
+name = "---"
+url = "#"
+weight = 30
+
+[[menu.after]]
+name = "🔗 LinkedIn"
+url = "https://www.linkedin.com/in/aalkaswan"
+weight = 10
+
+[[menu.after]]
+name = "💻 GitHub" 
+url = "https://github.com/aalkaswan"
+weight = 20
+
+[[menu.after]]
+name = "🐦 Twitter"
+url = "https://twitter.com/aalkaswan1"
+weight = 30
+
+[[menu.after]]
+name = "🎓 Google Scholar"
+url = "https://scholar.google.com/citations?user=mtil9QQAAAAJ"
+weight = 40

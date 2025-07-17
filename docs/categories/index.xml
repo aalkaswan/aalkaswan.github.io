@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ali Al-Kaswan</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Ali Al-Kaswan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Safety</title>
+      <link>http://localhost:1313/categories/ai-safety/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ai-safety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pre-Trained Language Models</title>
+      <link>http://localhost:1313/categories/pre-trained-language-models/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memorisation</title>
+      <link>http://localhost:1313/categories/memorisation/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/memorisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/categories/privacy/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compression</title>
+      <link>http://localhost:1313/categories/compression/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/compression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reverse Engineering</title>
+      <link>http://localhost:1313/categories/reverse-engineering/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/reverse-engineering/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

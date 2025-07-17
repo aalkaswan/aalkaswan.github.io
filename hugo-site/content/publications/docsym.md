@@ -1,0 +1,31 @@
+---
+title: "Towards Safe, Secure, and Usable LLMs4Code"
+authors: ["Ali Al-Kaswan"]
+date: "2024-04-17"
+categories: ["Memorisation", "Privacy", "Compression", "Pre-trained Language Models"]
+weight: 5
+---
+
+# Abstract
+
+Large Language Models (LLMs) are gaining popularity 
+in the field of Natural Language Processing (NLP) 
+due to their remarkable accuracy in various NLP tasks. 
+LLMs designed for coding are trained on massive datasets, 
+which enables them to learn 
+the structure and syntax 
+of programming languages. 
+These datasets are scraped from the web 
+and LLMs memorise information in these datasets. 
+LLMs for code are also growing, 
+making them more challenging to execute
+and making users increasingly reliant on external infrastructure.
+We aim to explore the challenges faced by LLMs for code
+and propose techniques to measure
+and prevent memorisation. 
+Additionally, we suggest methods to compress models and
+run them locally on consumer hardware.
+
+## Links
+
+{{< button href="/papers/images/2024_ICSE_Doc_Sym.pdf" >}}📄 Full Paper{{< /button >}}
