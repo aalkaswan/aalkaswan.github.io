@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ali Al-Kaswan Personal Website on Ali Al-Kaswan</title><link>https://aalkaswan.github.io/</link><description>Recent content in Ali Al-Kaswan Personal Website on Ali Al-Kaswan</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://aalkaswan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>The (ab)use of Open Source Code to Train Large Language Models</title><link>https://aalkaswan.github.io/publications/oss-llm/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/oss-llm/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>In recent years, Large Language Models (LLMs) have gained significant popularity due to their ability to generate human-like text and their potential applications in various fields, such as Software Engineering. LLMs for Code are commonly trained on large unsanitized corpora of source code scraped from the Internet. The content of these datasets is memorized and emitted by the models, often in a verbatim manner. In this work, we will discuss the security, privacy, and licensing implications of memorization. We argue why the use of copyleft code to train LLMs is a legal and ethical dilemma. Finally, we provide four actionable recommendations to address this issue.&lt;/p></description></item><item><title/><link>https://aalkaswan.github.io/menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/menu/</guid><description>&lt;h1 id="menu">
+ Menu
+ &lt;a class="anchor" href="#menu">#&lt;/a>
+&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://aalkaswan.github.io/">&lt;strong>Home&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aalkaswan.github.io/about/">&lt;strong>About&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aalkaswan.github.io/publications/">&lt;strong>Publications&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>STACC: Code Comment Classification using SentenceTransformers</title><link>https://aalkaswan.github.io/publications/stacc/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/stacc/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Code comments are a key resource for information about software artefacts. Depending on the use case, only some types of comments are useful. Thus, automatic approaches to classify these comments are proposed.
+In this work, we address this need by proposing, STACC, a set of SentenceTransformers-based binary classifiers.
+These lightweight classifiers are trained and tested on the NLBSE Code Comment Classification tool competition dataset, and surpass the baseline by a significant margin, achieving an average F1 score of 0.74 against the baseline of 0.31, which is an improvement of 139%.
+A replication package, as well as the models themselves, are publicly available&lt;/p></description></item><item><title>Targeted Attack on GPT-Neo for the SATML Language Model Data Extraction Challenge</title><link>https://aalkaswan.github.io/publications/extraction-challenge/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/extraction-challenge/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Previous work has shown that Large Language Models are susceptible to so-called data extraction attacks. This allows an attacker to extract a sample that was contained in the training data, which has massive privacy implications. The construction of data extraction attacks is challenging, current attacks are quite inefficient, and there exists a significant gap in the extraction capabilities of untargeted attacks and memorization. Thus, targeted attacks are proposed, which identify if a given sample from the training data, is extractable from a model. In this work, we apply a targeted data extraction attack to the SATML2023 Language Model Training Data Extraction Challenge. We apply a two-step approach. In the first step, we maximise the recall of the model and are able to extract the suffix for 69% of the samples. In the second step, we use a classifier-based Membership Inference Attack on the generations. Our AutoSklearn classifier achieves a precision of 0.841. The full approach reaches a score of 0.405 recall at a 10% false positive rate, which is an improvement of 34% over the baseline of 0.301.&lt;/p></description></item><item><title>Extending Source Code Pre-Trained Language Models to Summarise Decompiled Binaries</title><link>https://aalkaswan.github.io/publications/capybara/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/capybara/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Reverse engineering binaries is required to understand and analyse programs for which the source code is unavailable. Decompilers can transform the largely unreadable binaries into a more readable source code-like representation. However, reverse engineering is time-consuming, much of which is taken up by labelling the functions with semantic information.
+While the automated summarisation of decompiled code can help Reverse Engineers understand and analyse binaries, current work mainly focuses on summarising source code, and no suitable dataset exists for this task.
+In this work, we extend large pre-trained language models of source code to summarise decompiled binary functions. Furthermore, we investigate the impact of input and data properties on the performance of such models. Our approach consists of two main components; the data and the model.
+We first build CAPYBARA, a dataset of 214K decompiled function-documentation pairs across various compiler optimisations. We extend CAPYBARA further by generating synthetic datasets and deduplicating the data.
+Next, we fine-tune the CodeT5 base model with CAPYBARA to create BinT5. BinT5 achieves the state-of-the-art BLEU-4 score of 60.83, 58.82, and 44.21 for summarising source, decompiled, and synthetically stripped decompiled code, respectively. This indicates that these models can be extended to decompiled binaries successfully.
+Finally, we found that the performance of BinT5 is not heavily dependent on the dataset size and compiler optimisation level. We recommend future research to further investigate transferring knowledge when working with less expressive input formats such as stripped binaries.&lt;/p></description></item><item><title>Towards Safe, Secure, and Usable LLMs4Code</title><link>https://aalkaswan.github.io/publications/docsym/</link><pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/docsym/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Large Language Models (LLMs) are gaining popularity
+in the field of Natural Language Processing (NLP)
+due to their remarkable accuracy in various NLP tasks.
+LLMs designed for coding are trained on massive datasets,
+which enables them to learn
+the structure and syntax
+of programming languages.
+These datasets are scraped from the web
+and LLMs memorise information in these datasets.
+LLMs for code are also growing,
+making them more challenging to execute
+and making users increasingly reliant on external infrastructure.
+We aim to explore the challenges faced by LLMs for code
+and propose techniques to measure
+and prevent memorisation.
+Additionally, we suggest methods to compress models and
+run them locally on consumer hardware.&lt;/p></description></item><item><title>Traces of Memorisation in Large Language Models for Code</title><link>https://aalkaswan.github.io/publications/traces-memorisation/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/traces-memorisation/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare the rate of memorisation with large language models trained on natural language. We adopt an existing benchmark for natural language and construct a benchmark for code by identifying samples that are vulnerable to attack. We run both benchmarks against a variety of models, and perform a data extraction attack. We find that large language models for code are vulnerable to data extraction attacks, like their natural language counterparts. From the training data that was identified to be potentially extractable we were able to extract 47% from a CodeGen-Mono-16B code completion model. We also observe that models memorise more, as their parameter count grows, and that their pre-training data are also vulnerable to attack. We also find that data carriers are memorised at a higher rate than regular code or documentation and that different model architectures memorise different samples. Data leakage has severe outcomes, so we urge the research community to further investigate the extent of this phenomenon using a wider range of models and extraction techniques in order to build safeguards to mitigate this issue.&lt;/p></description></item><item><title>Code Red! On the Harmfulness of Applying Off-the-shelf Large Language Models to Programming Tasks</title><link>https://aalkaswan.github.io/publications/code-red/</link><pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/code-red/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Nowadays, developers increasingly rely on solutions powered by Large Language Models (LLM) to assist them with their coding tasks. This makes it crucial to align these tools with human values to prevent malicious misuse. In this paper, we propose a comprehensive framework for assessing the potential harmfulness of LLMs within the software engineering domain. We begin by developing a taxonomy of potentially harmful software engineering scenarios and subsequently, create a dataset of prompts based on this taxonomy. To systematically assess the responses, we design and validate an automatic evaluator that classifies the outputs of a variety of LLMs both open-source and closed-source models, as well as general-purpose and code-specific LLMs. Furthermore, we investigate the impact of models&amp;rsquo; size, architecture family, and alignment strategies on their tendency to generate harmful content.&lt;/p></description></item><item><title>About</title><link>https://aalkaswan.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/about/</guid><description>&lt;h1 id="about-ali-al-kaswan">
+ About Ali Al-Kaswan
+ &lt;a class="anchor" href="#about-ali-al-kaswan">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;strong>Researching the application of Machine Learning to Software Engineering.&lt;/strong> Specifically interested in &lt;strong>Natural Language Processing&lt;/strong> to help in Software Engineering Tasks and the intersection of &lt;strong>Machine Learning&lt;/strong> and &lt;strong>Security&lt;/strong>.&lt;/p>
+&lt;p>My previous research involved using Pre-Trained Transformers to help with Reverse Engineering Binaries. I am currently focussing on the privacy of Large Language Models.&lt;/p>
+&lt;h2 id="studies">
+ Studies
+ &lt;a class="anchor" href="#studies">#&lt;/a>
+&lt;/h2>
+&lt;p>I previously obtained my Master&amp;rsquo;s in Computer Science and Engineering with a specialization in Cyber Security from the Delft University of Technology. My &lt;a href="http://resolver.tudelft.nl/uuid:06a525ef-a9a8-4899-bbdb-cf2925808dae">Masters Thesis&lt;/a> involved using Transformer models to summarise Decompiled Binaries. I have also obtained my Bachelor&amp;rsquo;s in Computer Science and Engineering from the same university, where my &lt;a href="http://resolver.tudelft.nl/uuid:240aacf2-51c0-46c9-a3c2-5994a3321004">Bachelors Thesis&lt;/a> involved making an &lt;a href="https://datacentergame.nl/">inclusive game&lt;/a> to make Datacenters more appealing to girls.&lt;/p></description></item></channel></rss>

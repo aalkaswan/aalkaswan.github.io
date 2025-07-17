@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy on Ali Al-Kaswan</title><link>https://aalkaswan.github.io/categories/privacy/</link><description>Recent content in Privacy on Ali Al-Kaswan</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://aalkaswan.github.io/categories/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>Towards Safe, Secure, and Usable LLMs4Code</title><link>https://aalkaswan.github.io/publications/docsym/</link><pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/docsym/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Large Language Models (LLMs) are gaining popularity
+in the field of Natural Language Processing (NLP)
+due to their remarkable accuracy in various NLP tasks.
+LLMs designed for coding are trained on massive datasets,
+which enables them to learn
+the structure and syntax
+of programming languages.
+These datasets are scraped from the web
+and LLMs memorise information in these datasets.
+LLMs for code are also growing,
+making them more challenging to execute
+and making users increasingly reliant on external infrastructure.
+We aim to explore the challenges faced by LLMs for code
+and propose techniques to measure
+and prevent memorisation.
+Additionally, we suggest methods to compress models and
+run them locally on consumer hardware.&lt;/p></description></item><item><title>Traces of Memorisation in Large Language Models for Code</title><link>https://aalkaswan.github.io/publications/traces-memorisation/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://aalkaswan.github.io/publications/traces-memorisation/</guid><description>&lt;h1 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h1>
+&lt;p>Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare the rate of memorisation with large language models trained on natural language. We adopt an existing benchmark for natural language and construct a benchmark for code by identifying samples that are vulnerable to attack. We run both benchmarks against a variety of models, and perform a data extraction attack. We find that large language models for code are vulnerable to data extraction attacks, like their natural language counterparts. From the training data that was identified to be potentially extractable we were able to extract 47% from a CodeGen-Mono-16B code completion model. We also observe that models memorise more, as their parameter count grows, and that their pre-training data are also vulnerable to attack. We also find that data carriers are memorised at a higher rate than regular code or documentation and that different model architectures memorise different samples. Data leakage has severe outcomes, so we urge the research community to further investigate the extent of this phenomenon using a wider range of models and extraction techniques in order to build safeguards to mitigate this issue.&lt;/p></description></item></channel></rss>
