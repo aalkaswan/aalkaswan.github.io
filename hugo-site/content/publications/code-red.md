@@ -12,7 +12,7 @@ Nowadays, developers increasingly rely on solutions powered by Large Language Mo
 
 ## Links
 
-{{< button href="https://dl.acm.org/doi/abs/10.1145/3663529.3663864" >}}📄 Full Paper{{< /button >}}
+{{< button href="https://dl.acm.org/doi/abs/10.1145/3729380" >}}📄 Full Paper{{< /button >}}
 
 {{< button href="https://github.com/AISE-TUDelft/CodeRed" >}}💻 Replication Package{{< /button >}}
 
