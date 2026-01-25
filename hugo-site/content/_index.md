@@ -16,6 +16,9 @@ Previously, I obtained my Masters in Computer Science and Engineering - with a s
 
 Here are some of my recent research contributions:
 
+- **[Model See, Model Do? Exposure-Aware Evaluation of Bug-vs-Fix Preference in Code LLMs]({{< relref "/publications/model-see" >}})** (MSR'26) 
+  *Investigating how exposure influences the propensity of LLMs towards bugs and fixes*
+
 - **[Code Red! On the Harmfulness of Applying Off-the-shelf Large Language Models to Programming Tasks]({{< relref "/publications/code-red" >}})** (FSE'25) 
   *A comprehensive framework for assessing the potential harmfulness of LLMs in software engineering*
 
