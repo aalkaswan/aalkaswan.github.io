@@ -12,6 +12,9 @@ Here are my research publications:
 - **[Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges]({{< relref "root-shells" >}})** (AIWare'26)  
   Ali Al-Kaswan, Maksim Plotnikov, Maxim Hájek, Roland Vízner, Arie van Deursen, Maliheh Izadi
 
+- **[AST-PAC: AST-guided Membership Inference for Code](https://arxiv.org/abs/2602.13240)** (FSE-IVR'26)
+  Roham Koohestani, Ali Al-Kaswan, Jonathan Katzy, Maliheh Izadi
+
 - **[Model See, Model Do? Exposure-Aware Evaluation of Bug-vs-Fix Preference in Code LLMs]({{< relref "model-see" >}})** (MSR'26)
   Ali Al-Kaswan, Claudio Spiess, Prem Devanbu, Arie van Deursen, Maliheh Izadi
 
