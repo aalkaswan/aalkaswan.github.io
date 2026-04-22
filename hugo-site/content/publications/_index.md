@@ -7,6 +7,14 @@ weight: 20
 
 Here are my research publications:
 
+## 2026
+
+- **[Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges]({{< relref "root-shells" >}})** (AIWare'26)  
+  Ali Al-Kaswan, Maksim Plotnikov, Maxim Hájek, Roland Vízner, Arie van Deursen, Maliheh Izadi
+
+- **[Model See, Model Do? Exposure-Aware Evaluation of Bug-vs-Fix Preference in Code LLMs]({{< relref "model-see" >}})** (MSR'26)
+  Ali Al-Kaswan, Claudio Spiess, Prem Devanbu, Arie van Deursen, Maliheh Izadi
+
 ## 2025
 
 - **[Code Red! On the Harmfulness of Applying Off-the-shelf Large Language Models to Programming Tasks]({{< relref "code-red" >}})** (FSE'25)  

@@ -16,6 +16,9 @@ Previously, I obtained my Masters in Computer Science and Engineering - with a s
 
 Here are some of my recent research contributions:
 
+- **[Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges]({{< relref "/publications/root-shells" >}})** (AIWare'26)
+  *Partial-credit benchmarking of LLM agents on realistic CTF challenges*
+
 - **[Model See, Model Do? Exposure-Aware Evaluation of Bug-vs-Fix Preference in Code LLMs]({{< relref "/publications/model-see" >}})** (MSR'26) 
   *Investigating how exposure influences the propensity of LLMs towards bugs and fixes*
 
@@ -27,9 +30,6 @@ Here are some of my recent research contributions:
 
 - **[The (ab)use of Open Source Code to Train Large Language Models]({{< relref "/publications/oss-llm" >}})** (NLBSE'23)  
   *Discussing security, privacy, and licensing implications of LLM training*
-
-- **[STACC: Code Comment Classification using SentenceTransformers]({{< relref "/publications/stacc" >}})** (NLBSE'23)  
-  *Lightweight classifiers for automatic code comment classification*
 
 [**View All Publications →**]({{< relref "/publications" >}})
 
