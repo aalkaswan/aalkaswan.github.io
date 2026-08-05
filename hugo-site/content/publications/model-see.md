@@ -12,6 +12,6 @@ Large language models are increasingly used for code generation and debugging, b
 
 ## Links
 
-{{< button href="https://arxiv.org/pdf/2601.10496" >}}📄 Pre-print{{< /button >}}
+{{< button href="https://dl.acm.org/doi/pdf/10.1145/3793302.3793341" >}}📄 Full Paper{{< /button >}}
 
 

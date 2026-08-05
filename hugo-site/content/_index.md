@@ -36,14 +36,20 @@ Here are some of my recent research contributions:
 ## Other Contributions
 
 ### Editorial & Review Activities
+- **ACM Transactions on Software Engineering and Methodology (TOSEM) Reviewer** (2026)
+- **Science of Computer Programming (SCP) Reviewer** (2026)
+- **IEEE Transactions on Software Engineering (TSE) Reviewer** (2026)
+- **16th Intl. Conference on the Quality of Information and Communications Technology (QUATIC'26) Program Committee - Security and Privacy Track** (2026)
 - **ACM Transactions on Software Engineering and Methodology (TOSEM) Reviewer** (2025)
 - **18th Intl. Conference on the Quality of Information and Communications Technology (QUATIC'25) Program Committee - Security and Privacy Track**  
 - **ACM Transactions on Software Engineering and Methodology (TOSEM) Reviewer** (2024)
-- **Science of Computer Programming (SCP) Special Issue Executive Guest Editor **  
+- **Science of Computer Programming (SCP) Special Issue Executive Guest Editor**  
   *Executive editor of the special issue for NLBSE'24 in the Science of Computer Programming Journal*  [📖 NL-based Software to Support SE Processes](https://www.sciencedirect.com/journal/science-of-computer-programming/about/call-for-software#nlbse-24-natural-language-based-software-to-support-software-engineering-processes)
 - **3rd Intl. Workshop on NL-based Software Engineering (NLBSE'24) Program Committee**
 
 ### Conference Organization & Service
+- **The Poisoned Chalice of LLM Evaluation Competition Co-Chair (FSE'26)** 
+[📄 Competition Report](https://dl.acm.org/doi/abs/10.1145/3803437.3807733)
 - **4th Intl. Workshop on NL-based Software Engineering (NLBSE'25) Tool Competition Co-Chair** 
 [📄 Competition Report](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10189164)
 - **3rd Intl. Workshop on NL-based Software Engineering (NLBSE'24) Tool Competition Co-Chair**

@@ -12,6 +12,6 @@ Large Language Model (LLM) agents are increasingly proposed for autonomous cyber
 
 ## Links
 
-{{< button href="https://arxiv.org/abs/2604.19354" >}}📄 Pre-print{{< /button >}}
+{{< button href="https://dl.acm.org/doi/pdf/10.1145/3805760.3814926" >}}📄 Full Paper{{< /button >}}
 
 {{< button href="https://github.com/AISE-TUDelft/DeepRed-LLMAgent" >}}💻 Replication Package{{< /button >}}
