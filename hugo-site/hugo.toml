@@ -30,6 +30,11 @@ name = "Publications"
 pageRef = "/publications"
 weight = 20
 
+[[menu.before]]
+name = "🎓 PhD Defence"
+pageRef = "/defence"
+weight = 25
+
 # Separator
 [[menu.before]]
 name = "---"

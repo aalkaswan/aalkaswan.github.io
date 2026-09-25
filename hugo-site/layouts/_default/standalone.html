@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ default .Site.Language.Lang .Site.LanguageCode }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<head>
+  {{ partial "docs/html-head" . }}
+  {{ partial "docs/inject/head" . }}
+</head>
+<body>
+  <div style="min-height: 100vh; display: flex; flex-direction: column;">
+<main style="flex: 1; max-width: 680px; margin: 0 auto; width: 100%; padding: 0 2rem 3rem;">
+      <article class="markdown">
+        {{- .Content -}}
+      </article>
+    </main>
+  </div>
+  {{ partial "docs/inject/body" . }}
+</body>
+</html>
