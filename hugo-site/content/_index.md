@@ -5,12 +5,21 @@ type: docs
 
 # Welcome
 
-I am a Ph.D. student in the [Software Engineering Research Group](https://se.ewi.tudelft.nl/) at TU Delft.
-Currently, I am researching the application of Natural Language Processing to Software Engineering.
-My research interests include AI4SE, Reverse Engineering and NLP.
+I ask whether we can trust AI that writes code, and try to give the field the tools to answer.
+I am a postdoctoral researcher at Delft University of Technology, following a PhD in the [Software Engineering Research Group](https://se.ewi.tudelft.nl/) (defence December 2026).
+My research covers the security and evaluation of large language models and AI agents for software engineering: what code models memorise and leak, how they behave when deployed, and how to measure what agents can reliably do.
 Previously, I obtained my Masters in Computer Science and Engineering - with a specialisation in Cybersecurity. 
 
 **Email:** a.al-kaswan[at]tudelft.nl
+
+{{% until "2026-12-05" %}}
+{{% hint info %}}
+**🏆 Join the Poisoned Chalice Competition!**  
+Can you tell whether a code model has seen a sample during training? Build a membership inference attack and help make LLM evaluation for software engineering more trustworthy.
+
+{{< button href="https://poisoned-chalice.org/" >}}Join the competition →{{< /button >}}
+{{% /hint %}}
+{{% /until %}}
 
 ## Recent Publications
 

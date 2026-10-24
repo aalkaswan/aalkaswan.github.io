@@ -56,6 +56,7 @@ bookToc: false
     <p style="font-size: 1.05rem; margin: 0 0 0.5rem; color: rgba(255,255,255,0.75);">Ali Al-Kaswan</p>
     <p style="font-size: 0.9rem; margin: 0; color: rgba(255,255,255,0.55);">16 December 2026</p>
   </div>
+  <a href="/" style="position: absolute; top: 2rem; left: 2rem; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); text-decoration: none;">&larr; Home</a>
   <div style="position: absolute; bottom: 2rem; left: 2rem; display: flex; flex-direction: column; gap: 0.4rem;">
     <a href="#details" style="font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); text-decoration: none;">Details</a>
     <a href="#programme" style="font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); text-decoration: none;">Programme</a>

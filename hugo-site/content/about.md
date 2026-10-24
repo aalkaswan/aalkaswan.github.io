@@ -5,9 +5,11 @@ weight: 10
 
 # About Ali Al-Kaswan
 
-**Researching the application of Machine Learning to Software Engineering.** Specifically interested in **Natural Language Processing** to help in Software Engineering Tasks and the intersection of **Machine Learning** and **Security**. 
+I ask whether we can trust AI that writes code, and try to give the field the tools to answer.
+I am a postdoctoral researcher at Delft University of Technology, following a PhD in its [Software Engineering Research Group](https://se.ewi.tudelft.nl/) (thesis submitted July 2026, defence December 2026).
+My research covers the security and evaluation of large language models and AI agents for software engineering: what code models memorise and leak, how they behave when deployed, and how to measure what agents can reliably do.
 
-My previous research involved using Pre-Trained Transformers to help with Reverse Engineering Binaries. I am currently focussing on the privacy of Large Language Models.
+My earlier research used pre-trained Transformers to help with reverse engineering binaries.
 
 ## Studies
 

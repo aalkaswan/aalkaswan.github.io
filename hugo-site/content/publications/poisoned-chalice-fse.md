@@ -15,3 +15,4 @@ This paper reports the setup and results of the competition. More broadly, the c
 ## Links
 
 {{< button href="https://dl.acm.org/doi/abs/10.1145/3803437.3807733" >}}📄 Competition Report{{< /button >}}
+{{< button href="https://poisoned-chalice.org/" >}}🏆 Join the Competition{{< /button >}}

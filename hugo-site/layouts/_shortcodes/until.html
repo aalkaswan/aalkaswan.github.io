@@ -1,0 +1,15 @@
+{{- /* Shows inner content until the given date (exclusive, YYYY-MM-DD).
+       Skipped at build time once past, and hidden in the browser so it
+       also disappears without a rebuild. */ -}}
+{{- $until := .Get 0 -}}
+{{- if now.Before (time $until) -}}
+<div class="show-until" data-until="{{ $until }}">
+{{ .Inner }}
+</div>
+<script>
+(function () {
+  var el = document.currentScript.previousElementSibling;
+  if (new Date() >= new Date(el.dataset.until + "T00:00:00")) el.remove();
+})();
+</script>
+{{- end -}}

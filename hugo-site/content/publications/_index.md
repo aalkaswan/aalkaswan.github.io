@@ -9,6 +9,9 @@ Here are my research publications:
 
 ## 2026
 
+- **The More You Tune, The More They Spill? An Empirical Study of Data Leakage from Code Models Under Fine-tuning, Quantization, and Parameter-Efficient Adaptation** (EMSE)  
+  Fabio Salerno, Ali Al-Kaswan, Maliheh Izadi
+
 - **[Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture The Flag Challenges]({{< relref "root-shells" >}})** (AIWare'26)  
   Ali Al-Kaswan, Maksim Plotnikov, Maxim Hájek, Roland Vízner, Arie van Deursen, Maliheh Izadi
 
